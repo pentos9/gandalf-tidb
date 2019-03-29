@@ -14,14 +14,14 @@ It's built with TiDB and It shows that TiDB supports raw mysql protocal perfectl
 https://docs.docker.com/docker-for-mac/install/
 
 * ### Docker Compose
-Docker编排服务
+Docker 编排服务
 
 * ### 下载 tidb-docker-compose
 
 ```
 cd /Users/lucas/tools
-cd /Users/lucas/tools/tidb-docker-compose
 git clone https://github.com/pingcap/tidb-docker-compose.git
+cd /Users/lucas/tools/tidb-docker-compose
 
 ``` 
 
