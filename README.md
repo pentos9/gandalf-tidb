@@ -16,7 +16,7 @@ https://docs.docker.com/docker-for-mac/install/
 * ### Docker Compose
 Docker编排服务
 
-* ###下载 tidb-docker-compose
+* ### 下载 tidb-docker-compose
 
 ```
 cd /Users/lucas/tools
