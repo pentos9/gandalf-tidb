@@ -5,6 +5,8 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 import javax.persistence.Table;
 import java.util.Date;
 
@@ -14,9 +16,12 @@ import java.util.Date;
 @EqualsAndHashCode
 @Table(name = "user")
 public class UserPO {
+    @Id
+    @GeneratedValue(generator = "JDBC")
     private Long id;
     private String name;
     private String avatar;
+    private Integer deleted;
 
     private Date createdTime;
     private Date modifiedTime;
